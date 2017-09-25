@@ -89,7 +89,7 @@ class Search extends Component {
           ]}
           {...attributes}
         />
-        {!noIcon &&
+        {/* {!noIcon &&
           <Icon
             size={16}
             style={[styles.icon, styles.searchIcon, icon.style && icon.style]}
@@ -116,7 +116,7 @@ class Search extends Component {
               clearIcon && { right: 35 },
             ]}
             color={icon.color || colors.grey3}
-          />}
+          />} */}
       </View>
     );
   }
